@@ -1,0 +1,250 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-spacing: 0px;
+	width: 100%;
+}
+
+.container1 {
+    margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+    height: 120px;
+}
+
+.container1 img {
+    width: 100%;
+    height: auto;
+	text-align: center;
+}
+
+body {
+	color: #f2f2f2;
+	font-family: 'Oswald', sans-serif;
+	
+	/* font-weight: 100; */
+}
+
+ul {
+	color: #333;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+h2 {
+	color: #333;
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+h3 {
+	color: #333;
+	font-size: 30px;
+	margin-left: 20px;
+	line-height: 10px;
+}
+
+#form1 {
+	margin-left: 80px;
+	text-align: left;
+	color: #f2f2f2;
+}
+
+a.error:link {
+	color: #EE1212;
+	margin: 0;
+}
+a.error:visited {
+	color: #EE1212;
+	margin: 0;
+}
+a.error:hover {
+	color: #B10505;
+	margin: 0;
+}
+
+.error {
+	font-size: 20px;
+	color: #EE1212;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.errorca {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	font-size: 20px;
+	color: #EE1212;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.success {
+	font-size: 20px;
+	color: #11FE04;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.successca {
+	font-size: 20px;
+	color: #11FE04;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+.header {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  line-height: 130px; 
+  font-size: 58px;
+  margin-top: 0;
+  /* margin-bottom: 80px; */
+  text-transform: uppercase; 
+  background: url(https://c1.staticflickr.com/1/874/26287834607_affb1a8b97_b.jpg) no-repeat center center; 
+  background-size: cover;
+  height: 750px;
+  width: auto;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+  
+}
+
+.logbutton {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+    padding:10px 20px; 
+    background:#333; 
+	color: #f2f2f2;
+    border:0 none;
+    cursor:pointer;
+}
+
+.logbutton:hover {
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: #ddd;
+  color: #333;
+}
+
+.removebutton {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 18px;
+    padding:10px 20px; 
+    background:#333; 
+	color: #f2f2f2;
+    border:0 none;
+    cursor:pointer;
+}
+
+.removebutton:hover {
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: #ddd;
+  color: #333;
+}
+
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+}
+
+.login {
+	font-size: 20px;
+	font-family: Oswald;
+	color: black;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=email] {
+    padding:5px; 
+    border:2px solid #ccc; 
+}
+
+input[type=email]:focus {
+    border-color:#333;
+}
+
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+}
+
+input[type=password]:focus {
+    border-color:#333;
+}
+
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+}
+
+input[type=password]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+	font-size: 18px;
+    padding:10px 20px; 
+    background:#333; 
+	color: #f2f2f2;
+    border:0 none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #f2f2f2;
+	color: #333;

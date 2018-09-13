@@ -1,0 +1,17 @@
+* {
+	font-family: Oswald;
+}
+
+h1 {
+	color: #333;
+	font-size: 60pt;
+	padding: 20px;
+	text-align: center;
+}
+
+h2 {
+	color: #333;
+	font-size: 48pt;
+	padding: 10px;
+	text-align: center;
+}
